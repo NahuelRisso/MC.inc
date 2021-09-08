@@ -1,0 +1,288 @@
+.article-zapatillas-uno{    
+    section{
+        div{
+            h1{
+                @extend %h1
+            }            
+        }                
+    }    
+}
+.article-zapatillas-dos{    
+    .carousel-item{
+                    img{
+                        width: 60%;
+                        margin: 10% 0%;
+                    }
+    }
+}
+.article-zapatillas-tres{    
+    section{
+        div{
+            img{
+                @extend %zapatillasImg;
+            }            
+        }                
+    }    
+}
+.article-zapatillas-cuatro{    
+    section{
+        div{
+            img{
+                @extend %zapatillasImg;
+            }            
+        }                
+    }    
+}
+.article-zapatillas-cinco{    
+    section{
+        div{
+            img{
+                @extend %zapatillasImg;
+            }            
+        }                
+    }    
+}
+.article-zapatillas-seis{    
+    section{
+        div{
+            img{
+                @extend %zapatillasImg;
+            }            
+        }                
+    }    
+}
+.article-zapatillas-siete{    
+    section{
+        div{
+            img{
+                @extend %zapatillasImg;                
+            }            
+        }                
+    }    
+}
+.article-zapatillas-ocho{    
+    section{
+        div{
+            img{
+                @extend %zapatillasImg;
+            }            
+        }                
+    }    
+}
+/*MediaQuery MOBILE */
+.article-zapatillas-uno{    
+    section{
+        div{
+            h1{
+                @media only screen and (max-width: 425px){ 
+                    font-size: 5rem;
+                }
+            }            
+        }                
+    }    
+}
+.article-zapatillas-dos{    
+    .carousel-item{
+                    img{
+                        @media only screen and (max-width: 425px){ 
+                        width: 60%;
+                        margin: 10% 0%;
+                        }
+                    }
+    }
+}
+.article-zapatillas-tres{    
+    section{
+        div{
+            img{
+                @media only screen and (max-width: 425px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                    }
+                }
+           
+            }            
+        }                
+    }    
+.article-zapatillas-cuatro{    
+    section{
+        div{
+            img{
+                @media only screen and (max-width: 425px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                    }
+            }            
+        }                
+    }    
+}
+.article-zapatillas-cinco{    
+    section{
+        div{
+            img{
+                @media only screen and (max-width: 425px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                    }
+            }            
+        }                
+    }    
+}
+.article-zapatillas-seis{    
+    section{
+        div{
+            img{
+                @media only screen and (max-width: 425px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                    }
+            }            
+        }                
+    }    
+}
+.article-zapatillas-siete{    
+    section{
+        div{
+            img{
+                @media only screen and (max-width: 425px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                    }              
+            }            
+        }                
+    }    
+}
+.article-zapatillas-ocho{    
+    section{
+        div{
+            img{
+                @media only screen and (max-width: 425px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                    }
+            }            
+        }                
+    }    
+}
+/*MediaQuery TABLET */
+.article-zapatillas-uno{    
+    section{
+        div{
+            h1{               
+                @media only screen and (min-width:426px) and (max-width:768px){ 
+                 font-size: 6rem;
+                }
+            }            
+        }                
+    }    
+}
+.article-zapatillas-dos{    
+    .carousel-item{
+                    img{                       
+                        @media only screen and (min-width:426px) and (max-width:768px){ 
+                        width: 60%;
+                        margin: 10% 0%;
+                        }
+                    }
+    }
+}
+.article-zapatillas-tres{    
+    section{
+        div{
+            img{
+                  @media only screen and (min-width:426px) and (max-width:768px){ 
+                        width: 80%;
+                        margin: 5% 10% 22% 10%;
+                        border: solid 2px #808080;
+                        &:active{transform: scale(1.3);}
+                    }
+                    
+                }
+           
+            }            
+        }                
+    }    
+.article-zapatillas-cuatro{    
+    section{
+        div{
+            img{
+                @media only screen and (min-width:426px) and (max-width:768px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                }
+            }            
+        }                
+    }    
+}
+.article-zapatillas-cinco{    
+    section{
+        div{
+            img{
+                @media only screen and (min-width:426px) and (max-width:768px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                }
+            }            
+        }                
+    }    
+}
+.article-zapatillas-seis{    
+    section{
+        div{
+            img{
+                @media only screen and (min-width:426px) and (max-width:768px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                }
+            }            
+        }                
+    }    
+}
+.article-zapatillas-siete{    
+    section{
+        div{
+            img{
+                @media only screen and (min-width:426px) and (max-width:768px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                }             
+            }            
+        }                
+    }    
+}
+.article-zapatillas-ocho{    
+    section{
+        div{
+            img{
+                @media only screen and (min-width:426px) and (max-width:768px){ 
+                    width: 80%;
+                    margin: 5% 10% 22% 10%;
+                    border: solid 2px #808080;
+                    &:active{transform: scale(1.3);}
+                }
+            }            
+        }                
+    }    
+}
+
+

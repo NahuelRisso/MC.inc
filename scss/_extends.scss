@@ -1,0 +1,30 @@
+%p{
+    font-family: 'Oswald', sans-serif;
+    margin: 5% 0rem 10rem 0rem;
+    font-size: 1.6rem;
+    color: #808080;
+}
+%h1{
+    font-size: 8rem;
+    color: #d3af38;
+    text-align: center;
+    margin: 5% 0%;
+}
+%h3{
+    font-size: 5rem;
+    color: rgb(17, 16, 17);
+    text-decoration: underline;
+}
+
+%indImg{
+        width: 45%;       
+}
+%ropaImg{
+        width: 50%;     
+}
+%zapatillasImg{
+        width: 60%;      
+        margin: 5% 0% 22% 0%;
+        border: solid 2px #808080;
+        &:active{transform: scale(1.3);}
+}

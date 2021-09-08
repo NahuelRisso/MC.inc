@@ -1,0 +1,207 @@
+.article-ropa-uno{    
+    section{
+        div{
+            h1{
+                @extend %h1;
+            }            
+        }                
+    }    
+}
+.article-ropa-dos{    
+    section{
+        div{
+            h3{
+                @extend %h3;
+                margin: 5% 0%;
+            }           
+        }                
+    }    
+}
+.article-ropa-tres{    
+    section{
+        div{
+            div{
+                margin: 7% 3%;
+                 height: 96%;
+                    img{
+                    width: 100%;                   
+                    }
+                }
+            }         
+        }                
+     }    
+.article-ropa-tres{
+    section{
+        div{
+            div{
+                div{
+                    h5{
+                        font-size: 2rem;
+                    }
+                    a{
+                        position: absolute;
+                        bottom: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*MediaQuery MOBILE*/
+.article-ropa-uno{    
+    section{
+        div{
+            h1{
+                @media only screen and (max-width: 425px){ 
+                    font-size: 5rem;
+                }
+            }            
+        }                
+    }    
+}
+.article-ropa-dos{    
+    section{
+        div{
+            h3{
+                @media only screen and (max-width: 425px){ 
+                    font-size: 3rem;
+                    margin: 5% 0%;
+                    text-align: center;
+                    }               
+            }           
+        }                
+    }    
+}
+.article-ropa-tres{    
+    section{
+        div{
+            div{                
+                img{
+                    @media only screen and (max-width: 425px){ 
+                        width: 100%; 
+                        } 
+                    }
+
+                    
+            }                    
+        }                
+     }
+}    
+.article-ropa-tres{
+    section{
+        div{
+            div{
+                div{
+                    @media only screen and (max-width: 425px){ 
+                        height: 100%;
+                         
+                        h5{
+                            @media only screen and (max-width: 425px){
+                            font-size: 1rem;
+                            }
+                        }
+                        a{
+                            @media only screen and (max-width: 425px){
+                            position: absolute;
+                            bottom: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*MediaQuery TABLET*/
+.article-ropa-uno{    
+    section{
+        div{
+            h1{
+                @media only screen and (min-width:426px) and (max-width:768px){ 
+                    font-size:5rem;                   
+                    }
+            }            
+        }                
+    }    
+}
+.article-ropa-dos{    
+    section{
+        div{
+            h3{
+                @media only screen and (min-width:426px) and (max-width:768px){ 
+                    font-size: 3.5rem;
+                    text-align: center;
+                    margin-bottom: 5%;
+                    }              
+            }           
+        }                
+    }    
+}
+.article-ropa-tres{    
+    section{
+        div{
+            div{
+                @media only screen and (min-width: 425px) and (max-width:768px){ 
+                        margin: 7% 10%;
+                        width: 85%; 
+                        height: auto;   
+                    }                
+                    img{
+                        @media only screen and (min-width: 425px) and (max-width:768px){
+                        width: 75%; 
+                        margin: 0% 14%;  
+                        }                 
+                    }
+            }
+        }
+    }         
+}                
+ 
+
+/*MediaQuery TABLET GRANDE*/
+.article-ropa-uno{    
+    section{
+        div{
+            h1{
+                @media only screen and (min-width:769px) and (max-width:991px){ 
+                    font-size:5rem;                   
+                    }
+            }            
+        }                
+    }    
+}
+.article-ropa-dos{    
+    section{
+        div{
+            h3{
+                @media only screen and (min-width:769px) and (max-width:991px){ 
+                    font-size: 3.5rem;
+                    text-align: center;
+                    margin-bottom: 5%;
+                    }              
+            }           
+        }                
+    }    
+}
+.article-ropa-tres{    
+    section{
+        div{
+            div{
+                @media only screen and (min-width: 769px) and (max-width:991px){ 
+                        margin: 7% 10%;
+                        width: 86%;
+                        height: auto;  
+                    }                  
+                    img{
+                        @media only screen and (min-width: 769px) and (max-width:991px){
+                        width: 65%;
+                        margin: 0% 14%;  
+                        }                    
+                }
+            }
+        }
+    }         
+}                
+ 
+
+
