@@ -8,7 +8,7 @@
   padding: 0%;
 }
 
-.article-sobrenosotros-dos section div p, .article-sobrenosotros-uno section div p, .article-index-nueve section div p, .article-index-siete section div p, .article-index-cuatro section div p, .article-index-uno section div p {
+.article-ropa-dos section div p, .article-sobrenosotros-dos section div p, .article-sobrenosotros-uno section div p, .article-index-nueve section div p, .article-index-siete section div p, .article-index-cuatro section div p, .article-index-uno section div p {
   font-family: "Oswald", sans-serif;
   margin: 5% 0rem 10rem 0rem;
   font-size: 1.6rem;
@@ -96,13 +96,22 @@
 
 footer {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 200px;
+  flex-direction: column;
   background-color: #6c757d;
+  align-items: center;
 }
-footer p {
-  margin-top: 20%;
+footer .footer-social-margin {
+  display: none;
+}
+@media only screen and (max-width: 1086px) {
+  footer .footer-social-margin {
+    display: flex;
+    justify-content: center;
+  }
+}
+footer .footer-social-margin a img {
+  width: 50%;
+  margin: 0% 25%;
 }
 
 .article-index-portada section {
@@ -117,6 +126,42 @@ footer p {
   margin: 5% 0%;
 }
 
+.article-index-uno {
+  overflow: hidden;
+}
+.article-index-dos {
+  overflow: hidden;
+}
+.article-index-tres {
+  overflow: hidden;
+}
+.article-index-cuatro {
+  overflow: hidden;
+}
+.article-index-cinco {
+  overflow: hidden;
+}
+.article-index-seis {
+  overflow: hidden;
+}
+.article-index-seis section div img {
+  margin: 0% 1.5%;
+}
+
+.article-index-siete {
+  overflow: hidden;
+}
+.article-index-ocho {
+  overflow: hidden;
+}
+.article-index-nueve {
+  overflow: hidden;
+}
+@media only screen and (max-width: 1087px) {
+  .barra-social {
+    display: none;
+  }
+}
 .barra-social section div {
   position: fixed;
   left: 0;
@@ -326,6 +371,67 @@ footer p {
   }
 }
 
+/*Mediasquery ruptura*/
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-index-uno section div p {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-index-dos section div h3 {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-index-tres section div p {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-index-cuatro section div p {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-index-cinco section div h3 {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-index-seis section div p {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-index-siete section div p {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-index-ocho section div h3 {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-index-nueve section div p {
+    margin-left: 3%;
+  }
+}
+
+.article-sobrenosotros-uno {
+  overflow: hidden;
+}
+.article-sobrenosotros-dos {
+  overflow: hidden;
+}
 /*MediaQuery MOBILE*/
 @media only screen and (max-width: 425px) {
   .article-sobrenosotros-uno section div h1 {
@@ -384,24 +490,53 @@ footer p {
   }
 }
 
+/*Mediasquery ruptura*/
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-sobrenosotros-uno section div p {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-sobrenosotros-dos section div h3 {
+    margin-left: 3%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-sobrenosotros-dos section div p {
+    margin-left: 3%;
+  }
+}
+
 .article-ropa-dos section div h3 {
   margin: 5% 0%;
 }
-
 .article-ropa-tres section div div {
-  margin: 7% 3%;
-  height: 96%;
+  margin: 3% 10%;
 }
 .article-ropa-tres section div div img {
-  width: 100%;
+  width: 57%;
 }
 
+.article-ropa-tres section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article-ropa-tres section div div {
+  width: 65%;
+  height: 780px;
+}
 .article-ropa-tres section div div div h5 {
   font-size: 2rem;
 }
 .article-ropa-tres section div div div a {
   position: absolute;
   bottom: 14px;
+}
+
+.fadeIn {
+  animation-duration: 2s;
 }
 
 /*MediaQuery MOBILE*/
@@ -500,11 +635,66 @@ footer p {
   }
 }
 
+/*Mediasquery Ruptura*/
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-ropa-dos section div h3 {
+    margin-left: 3%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1264px) {
+  .article-ropa-dos section div p {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1145px) {
+  .article-ropa-tres section div div {
+    width: 70%;
+    height: 780px;
+  }
+}
+
+.article-zapatillas-uno {
+  overflow: hidden;
+}
+.article-zapatillas-dos {
+  overflow: hidden;
+}
 .article-zapatillas-dos .carousel-item img {
   width: 60%;
   margin: 10% 0%;
 }
 
+.article-zapatillas-tres {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.article-zapatillas-cuatro {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.article-zapatillas-cinco {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.article-zapatillas-seis {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.article-zapatillas-siete {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.article-zapatillas-ocho {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
 /*MediaQuery MOBILE */
 @media only screen and (max-width: 425px) {
   .article-zapatillas-uno section div h1 {

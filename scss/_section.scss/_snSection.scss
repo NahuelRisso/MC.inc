@@ -1,4 +1,5 @@
-.article-sobrenosotros-uno{    
+.article-sobrenosotros-uno{  
+    overflow: hidden;   
     section{
         div{
             h1{
@@ -10,7 +11,8 @@
         }                
     }    
 }
-.article-sobrenosotros-dos{    
+.article-sobrenosotros-dos{   
+    overflow: hidden; 
     section{
         div{
             h3{
@@ -100,5 +102,34 @@
             }
         }                
     } 
+/*Mediasquery ruptura*/
+.article-sobrenosotros-uno{    
+    section{
+        div{
+            p{                
+                @media only screen and (min-width:1200px) and (max-width:1264px){ 
+                    margin-left: 3%;
+                    }
+                }
+            }
+        }                
+} 
+.article-sobrenosotros-dos{    
+    section{
+        div{
+            h3{
+                @media only screen and (min-width:1200px) and (max-width:1264px){ 
+                    margin-left: 3%;
+                    }
+            }
+            p{                
+                @media only screen and (min-width:1200px) and (max-width:1264px){ 
+                    margin-left: 3%;
+                    }
+                }
+            }
+        }                
+    }     
+
 
      

@@ -1,4 +1,5 @@
-.article-zapatillas-uno{    
+.article-zapatillas-uno{   
+    overflow: hidden;  
     section{
         div{
             h1{
@@ -7,7 +8,8 @@
         }                
     }    
 }
-.article-zapatillas-dos{    
+.article-zapatillas-dos{   
+    overflow: hidden;  
     .carousel-item{
                     img{
                         width: 60%;
@@ -16,6 +18,9 @@
     }
 }
 .article-zapatillas-tres{    
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
     section{
         div{
             img{
@@ -24,7 +29,10 @@
         }                
     }    
 }
-.article-zapatillas-cuatro{    
+.article-zapatillas-cuatro{  
+    overflow: hidden; 
+     display: flex;
+    justify-content: center;  
     section{
         div{
             img{
@@ -33,7 +41,10 @@
         }                
     }    
 }
-.article-zapatillas-cinco{    
+.article-zapatillas-cinco{  
+    overflow: hidden; 
+     display: flex;
+    justify-content: center;  
     section{
         div{
             img{
@@ -42,7 +53,10 @@
         }                
     }    
 }
-.article-zapatillas-seis{    
+.article-zapatillas-seis{  
+    overflow: hidden; 
+     display: flex;
+    justify-content: center;  
     section{
         div{
             img{
@@ -51,7 +65,10 @@
         }                
     }    
 }
-.article-zapatillas-siete{    
+.article-zapatillas-siete{  
+    overflow: hidden; 
+     display: flex;
+    justify-content: center;  
     section{
         div{
             img{
@@ -60,7 +77,10 @@
         }                
     }    
 }
-.article-zapatillas-ocho{    
+.article-zapatillas-ocho{  
+    overflow: hidden; 
+     display: flex;
+    justify-content: center;  
     section{
         div{
             img{

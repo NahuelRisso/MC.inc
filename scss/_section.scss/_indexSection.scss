@@ -21,6 +21,7 @@
     }
 }
 .article-index-uno{    
+    overflow: hidden;
     section{
         div{
             p{
@@ -29,7 +30,8 @@
         }        
     }   
 }
-.article-index-dos{    
+.article-index-dos{  
+    overflow: hidden;  
     section{
         div{            
             h3{
@@ -39,6 +41,7 @@
     }    
 }
 .article-index-tres{
+    overflow: hidden;
     section{
         div{
             img{
@@ -48,6 +51,7 @@
     }
 }
 .article-index-cuatro{
+    overflow: hidden;
     section{
         div{
             p{
@@ -57,6 +61,7 @@
     }
 }
 .article-index-cinco{
+    overflow: hidden;
     section{
         div{
             h3{
@@ -66,15 +71,18 @@
     }
 }
 .article-index-seis{
+    overflow: hidden;
     section{
         div{
            img{
             @extend %indImg;
+            margin: 0% 1.5%
            }
         }
     }
 }
 .article-index-siete{
+    overflow: hidden;
     section{
         div{
            p{
@@ -84,6 +92,7 @@
     }
 }
 .article-index-ocho{
+    overflow: hidden;
     section{
         div{
             h3{
@@ -93,6 +102,7 @@
     }
 }
 .article-index-nueve{
+    overflow: hidden;
     section{
         div{
            p{
@@ -102,6 +112,9 @@
     }
 }
 .barra-social{
+    @media only screen and (max-width: 1087px){
+        display: none;
+    }
     section{
         div{
             position: fixed;
@@ -418,4 +431,105 @@
         }
     }
 }
-    
+
+/*Mediasquery ruptura*/
+.article-index-uno{
+    section{
+        div{
+            p{
+                @media only screen and (min-width: 1200px) and (max-width: 1264px){
+                    margin-left: 3%;
+                }
+            }
+        }
+    }
+}
+.article-index-dos{
+    section{
+        div{
+            h3{
+                @media only screen and (min-width: 1200px) and (max-width: 1264px){
+                    margin-left: 3%;
+                }
+            }
+        }
+    }
+}
+.article-index-tres{
+    section{
+        div{
+            p{
+                @media only screen and (min-width: 1200px) and (max-width: 1264px){
+                    margin-left: 3%;
+                }
+            }
+        }
+    }
+}
+.article-index-cuatro{
+    section{
+        div{
+            p{
+                @media only screen and (min-width: 1200px) and (max-width: 1264px){
+                    margin-left: 3%;
+                }
+            }
+        }
+    }
+}
+.article-index-cinco{
+    section{
+        div{
+            h3{
+                @media only screen and (min-width: 1200px) and (max-width: 1264px){
+                    margin-left: 3%;
+                }
+            }
+        }
+    }
+}
+.article-index-seis{
+    section{
+        div{
+            p{
+                @media only screen and (min-width: 1200px) and (max-width: 1264px){
+                    margin-left: 3%;
+                }
+            }
+        }
+    }
+}
+.article-index-siete{
+    section{
+        div{
+            p{
+                @media only screen and (min-width: 1200px) and (max-width: 1264px){
+                    margin-left: 3%;
+                }
+            }
+        }
+    }
+}
+.article-index-ocho{
+    section{
+        div{
+            h3{
+                @media only screen and (min-width: 1200px) and (max-width: 1264px){
+                    margin-left: 3%;
+                }
+            }
+        }
+    }
+}
+.article-index-nueve{
+    section{
+        div{
+            p{
+                @media only screen and (min-width: 1200px) and (max-width: 1264px){
+                    margin-left: 3%;
+                }
+            }
+        }
+    }
+}
+

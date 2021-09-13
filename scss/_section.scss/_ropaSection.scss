@@ -13,7 +13,10 @@
             h3{
                 @extend %h3;
                 margin: 5% 0%;
-            }           
+            }  
+            p{
+                @extend %p;
+            }         
         }                
     }    
 }
@@ -21,10 +24,9 @@
     section{
         div{
             div{
-                margin: 7% 3%;
-                 height: 96%;
+                margin: 3% 10%;
                     img{
-                    width: 100%;                   
+                    width: 57%;                
                     }
                 }
             }         
@@ -33,7 +35,12 @@
 .article-ropa-tres{
     section{
         div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             div{
+                width: 65%;
+                height: 780px;
                 div{
                     h5{
                         font-size: 2rem;
@@ -46,6 +53,10 @@
             }
         }
     }
+}
+
+.fadeIn{
+    animation-duration: 2s;
 }
 /*MediaQuery MOBILE*/
 .article-ropa-uno{    
@@ -201,7 +212,36 @@
             }
         }
     }         
-}                
+} 
+/*Mediasquery Ruptura*/      
+.article-ropa-dos{    
+    section{
+        div{
+            h3{
+                @media only screen and (min-width:1200px) and (max-width:1264px){ 
+                    margin-left: 3%;
+                    }             
+            } 
+            p{
+                @media only screen and (min-width:1200px) and (max-width:1264px){ 
+                    margin-left: 3%;
+                    }
+            }          
+        }                
+    }    
+} 
+.article-ropa-tres{
+    section{
+        div{
+            div{
+                @media only screen and (min-width:992px) and (max-width:1145px){
+                width: 70%;
+                height: 780px;
+                }
+            }
+        }
+    }
+}     
  
 
 
