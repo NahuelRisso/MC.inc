@@ -695,6 +695,11 @@ footer .footer-social-margin a img {
   display: flex;
   justify-content: center;
 }
+.zap-flex-mq {
+  display: flex;
+  justify-content: center;
+}
+
 /*MediaQuery MOBILE */
 @media only screen and (max-width: 425px) {
   .article-zapatillas-uno section div h1 {
