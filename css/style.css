@@ -34,7 +34,7 @@
 
 .article-zapatillas-ocho section div img, .article-zapatillas-siete section div img, .article-zapatillas-seis section div img, .article-zapatillas-cinco section div img, .article-zapatillas-cuatro section div img, .article-zapatillas-tres section div img {
   width: 60%;
-  margin: 5% 0% 22% 0%;
+  margin: 9% 0% 16% 20%;
   border: solid 2px #808080;
 }
 .article-zapatillas-ocho section div img:active, .article-zapatillas-siete section div img:active, .article-zapatillas-seis section div img:active, .article-zapatillas-cinco section div img:active, .article-zapatillas-cuatro section div img:active, .article-zapatillas-tres section div img:active {
@@ -797,6 +797,7 @@ footer .footer-social-margin a img {
   }
   .article-zapatillas-tres section div img:active {
     transform: scale(1.3);
+    border: none;
   }
 }
 
@@ -808,6 +809,7 @@ footer .footer-social-margin a img {
   }
   .article-zapatillas-cuatro section div img:active {
     transform: scale(1.3);
+    border: none;
   }
 }
 
@@ -819,6 +821,7 @@ footer .footer-social-margin a img {
   }
   .article-zapatillas-cinco section div img:active {
     transform: scale(1.3);
+    border: none;
   }
 }
 
@@ -830,6 +833,7 @@ footer .footer-social-margin a img {
   }
   .article-zapatillas-seis section div img:active {
     transform: scale(1.3);
+    border: none;
   }
 }
 
@@ -841,6 +845,7 @@ footer .footer-social-margin a img {
   }
   .article-zapatillas-siete section div img:active {
     transform: scale(1.3);
+    border: none;
   }
 }
 
@@ -852,6 +857,7 @@ footer .footer-social-margin a img {
   }
   .article-zapatillas-ocho section div img:active {
     transform: scale(1.3);
+    border: none;
   }
 }
 
